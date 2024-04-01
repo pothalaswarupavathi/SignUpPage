@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUP</title>
+    <style>
+        body{
+            
+            background-color:aliceblue;
+            
+            display:flex;
+           justify-content: center;
+           margin:50px;
+           padding:30px;
+           
+          
+        }
+        .container{
+           
+           position:absolute;   
+           display:flex;
+           justify-content: center;
+           align-items: center;
+           margin:50px;
+           padding:30px;
+        }
+        .signUp{
+            margin:30px;
+        }
+        form{
+            margin:30px;
+        }
+        input{
+            display:flex;
+            justify-content: end;
+            border-radius:5px;
+            border:none;;
+            width:100%;
+            box-shadow:2px 2px 1px black;
+            text-align:center;
+            direction:ltl;
+            font-size:20px;
+        }
+        input:hover{
+            background-color: rgba(202, 207, 195, 0.5);
+        }
+        label{
+            margin-left:0px;
+            font-size:25px;
+
+        }
+       .heading{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+
+        }
+        .btn{
+            position:absolute;
+            background-color: blue;
+            color:white;
+            margin-left:5px;
+            margin-top:30px;
+            width:60%;
+            font-size: 20px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+       .chcek{
+        border:none;    
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="signUp">
+            <h1 class="heading">SignUp</h1>
+          <form action="#" method="post">
+           
+            <label for="FullName">FullName</label>
+            <input type="text" name="FullName" placeholder="Name...." required><br>
+         
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="email address......." required ><br>
+       
+
+            <label for="username">UserName</label>
+            <input type="text" name="username" placeholder="username" required><br>
+     
+
+            <label for="password">Password</label>
+            <input type="password" name="password" placeholder="password" required><br>
+            
+            <label for="re-enter">Re-enter passwrod</label>
+            <input type="password" name="re-enter" placeholder="enter same as password"><br>
+          
+            <input type="checkbox" class="check">I agree terms and conditions
+            <br> <button type="submit" class="btn">SignUp</button> 
+         
+          </form>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
